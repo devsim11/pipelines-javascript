@@ -7,6 +7,7 @@ trigger:
 - master
 
 pool:
+  name: 'Default'
   vmImage: ub:2.190.0
 
 steps:
