@@ -6,8 +6,11 @@
 trigger:
 - master
 
+
 pool:
-  vmImage: ubuntu-latest
+  name: 'Default'
+  vmImage: ub:2.190.0
+
 
 steps:
 - task: NodeTool@0
